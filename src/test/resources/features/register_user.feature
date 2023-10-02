@@ -12,7 +12,7 @@ Feature: register a log an account in the webpage Utest
     Then the user successfully  created  the account
     Examples:
       | firstName | lastName | email | day   | month  | year    |languages| city | postalcode | country | computer | version | language| mobile| model |system |password | confirmpassword |agreement1 | agreement2 |agreement3 |
-      | Luis | Dominguez  | l4n.dominguez@hotmail.com | 16 | June | 1996  |English | Panama | 44005| Panama |   Windows  | Mojave 10.14 |  Spanish  |Samsung |J7|Android 13 |Wsxaq123., | Admin1234 | test456 | test456  | test456  |
+      | Luis | Dominguez  | l4n.dominguez@hotmail.com | 16 | June | 1996  |English | Panama | 16696| Panama |   Windows  | 10 |  Spanish  |Samsung |J7|Android 13 |Wsxaq123., | Admin1234 | test456 | test456  | test456  |
 
 
   @LogInAccount
